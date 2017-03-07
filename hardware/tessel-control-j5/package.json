@@ -1,0 +1,17 @@
+{
+  "name": "tessel-control-j5",
+  "version": "1.0.0",
+  "description": "THis is a tessel controller utilizing Johnny Five",
+  "main": "tessel-control.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cuan Jooste",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "johnny-five": "^0.10.0",
+    "socket.io": "^1.4.8",
+    "tessel-io": "^0.7.2"
+  }
+}
