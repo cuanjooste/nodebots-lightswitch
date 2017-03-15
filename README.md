@@ -1,6 +1,6 @@
 # Nodebots-lightswitch
 
-A simple example of using Node.js to create a connected system for Arduino Uno and Tessel 2. Utilizing Vue.js for the web application, socket IO for communication and Johnny Five as a hardware platform.
+A simple example of using Node.js to create a connected system for Arduino Uno, Tessel 2 and Raspberry PI Zero W. Utilizing Vue.js for the web application, socket IO for communication and Johnny Five as a hardware platform.
 
 ## Getting Started
 
@@ -16,6 +16,15 @@ TESSEL
 	- npm install
 	- t2 run tessel-control.js
 
+RASPBERRY PI ZERO
+- Node v7.7.1
+	- Installing Node - https://github.com/sdesalas/node-pi-zero
+	- Install Raspi-io & Johnny Five - https://github.com/nebrius/raspi-io
+- STEPS
+	- npm install
+	- sudo node raspberry-control.js
+
+
 
 WEBAPP
 - Uses Vue-Cli Webpack Simple Template
@@ -25,7 +34,7 @@ WEBAPP
 	- npm run dev
 
 
-This example can only control 1 piece of hardware at a time. To switch between the tessel and arduino, please comment out the appropriate line in WebApp/src/main.js
+This example can only control 1 piece of hardware at a time. To switch between devices, please comment out the appropriate line in WebApp/src/main.js. I have also included a basic component layout that was used for all 3 devices, the only difference is that the Raspberry PI Zero does not read data from the photocell.
 
 ### Prerequisites
 

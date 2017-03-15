@@ -1,0 +1,17 @@
+{
+  "name": "raspberry_pi_zero-control-j5",
+  "version": "1.0.0",
+  "description": "A basic lightswitch example using Johnny-five, connected to a Node server with Vue.js",
+  "main": "raspberry-control.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "johnny-five": "^0.10.6",
+    "raspi-io": "^7.2.4",
+    "socket.io": "^1.7.3"
+  }
+}
